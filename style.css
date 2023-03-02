@@ -1,0 +1,40 @@
+body{
+    max-width:1280px;
+}
+.album{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    border: 20px ligh grey;
+    border-radius: 30px;
+    height:60vh;
+    width:auto;
+}
+
+section {
+    margin:10px;
+    background-color: lightgrey;
+    border: 0.5px solid green;
+    border-radius: 30px;
+    padding-bottom:20px;
+
+}
+
+
+section h2{
+    display:block;
+    margin-left:50px;
+}
+
+section p{
+    display:block;
+    margin-left: 50px;
+    margin-right: 60px;
+
+}
+
+@media(max-width: 720px){
+   section{
+    background-color:green;
+   } 
+}
